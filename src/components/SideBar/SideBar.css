@@ -1,0 +1,17 @@
+.side-bar{
+    width: 250px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inbox{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    padding: 0 50px;
+}
+.inbox:hover{
+    background-color: #E5EAEA;
+}
