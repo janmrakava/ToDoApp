@@ -1,0 +1,27 @@
+.search-bar{
+    display: flex;
+    margin-left: 10px;
+    background-color: #e16b60; 
+    color: #e16b60;
+    padding: 5px;
+}
+.input-search{
+    background-color: #e16b60;
+    border: none;
+}
+.search-bar:hover{
+    background-color: white;
+}
+.input-search:hover{
+    background-color: white;
+    
+}
+::placeholder:hover{
+    color: grey;
+}
+::placeholder{ /*Rest browsers */
+    color: white;    
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
