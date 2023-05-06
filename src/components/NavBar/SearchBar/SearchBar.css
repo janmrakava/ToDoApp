@@ -29,6 +29,9 @@
 {
     color: #949498;
 }
+.input-bar:focus{
+    width: 450px;
+}
 
 
 
