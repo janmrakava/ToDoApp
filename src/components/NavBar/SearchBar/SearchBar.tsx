@@ -4,13 +4,11 @@ import SearchIcon from '@mui/icons-material/Search';
 export const SearchBar = () => {
     return (
         <>
-        <div className='search-bar'>
-            <SearchIcon 
-                sx={{
-                    color: 'white'
-                }}
+        <div className='search-bar'>            
+            <SearchIcon                                
+                className='search-icon'
             />
-            <input type="search" placeholder='Hledat' className='input-search'/>
+            <input type="text" placeholder='Hledat' className='input-bar'/>
          
         </div>
         

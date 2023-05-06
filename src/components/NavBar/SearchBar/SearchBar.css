@@ -1,27 +1,37 @@
 .search-bar{
-    display: flex;
-    margin-left: 10px;
-    background-color: #e16b60; 
-    color: #e16b60;
-    padding: 5px;
+   display: flex;
+   margin-left: 15px;  
+   padding: 3px;
+   background-color: #e27065;
 }
-.input-search{
-    background-color: #e16b60;
-    border: none;
-}
-.search-bar:hover{
-    background-color: white;
-}
-.input-search:hover{
-    background-color: white;
-    
-}
-::placeholder:hover{
-    color: grey;
-}
-::placeholder{ /*Rest browsers */
-    color: white;    
-}
-::-ms-input-placeholder { /* Microsoft Edge */
+.search-bar,
+.search-bar .input-bar{
+    background-color: #e27065; 
     color: white;
-  }
+}
+.input-bar{
+    border: none;
+    padding-left: 10px;
+}
+.input-bar:focus{
+    outline: none;    
+}
+
+.search-bar:hover * {
+    background-color: white;
+    color: #949498;
+   
+}
+.input-bar::-webkit-input-placeholder{
+    color: white;
+}
+.input-bar:hover::-webkit-input-placeholder
+{
+    color: #949498;
+}
+
+
+
+
+
+
