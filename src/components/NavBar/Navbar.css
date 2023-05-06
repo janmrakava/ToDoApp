@@ -2,6 +2,29 @@
     width: 100%;
     background-color: #db4c3f;
     display: flex;
+    justify-content: space-between;
+}
+.container-navbar{
+    display: flex;
     flex-direction: row;
     align-items: center;
+    color: white;
+}
+.material-icon{
+    margin: 10px;
+    cursor: pointer;
+}
+.material-icon:hover{
+    background-color: #e27065;    
+}
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notification p {
+    padding-right: 10px;
+}
+.notification:hover{
+    background-color: #e27065;
 }
