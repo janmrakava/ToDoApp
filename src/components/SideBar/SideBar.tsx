@@ -1,17 +1,17 @@
 import InboxIcon from '@mui/icons-material/Inbox';
 import './SideBar.css'
 const SideBar = () => {
+    const arrOfSideBarItems = ['Inbox', 'Today', 'Upcoming', 'Favorites', 'Projects']
     return (
         <>
         <div className='side-bar'>
-            <div className='inbox'>                     
+        <div className='inbox'>                     
             <InboxIcon
                     sx={{
                         color: '#089cf5',
                         marginRight: '5px',               
                     }} /> 
-                <span>Inbox</span>
-            
+                <span>Inbox</span>            
             </div>
             
             <p>Today</p>
