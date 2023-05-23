@@ -31,7 +31,8 @@ function App() {
   return (
     <>
     <Suspense>
-      <h2>{t('Welcome.text')}</h2>
+      <h2>{t('MainPage.text')}</h2>
+     
       {buttonLng}
       <Navbar />
       <SideBar />

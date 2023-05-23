@@ -1,5 +1,15 @@
 {
-    "Welcome": {
+    "MainPage": {
         "text": "Welcome to this React Internationalization App"
+    },
+    "SearchBar": {
+        "text": "Search"
+    },
+    "SideBar":{
+        "inbox": "Inbox",
+        "today": "Today",
+        "upcoming": "Upcoming",
+        "favorites": "Favorites",
+        "projects": "Projects"
     }
 }

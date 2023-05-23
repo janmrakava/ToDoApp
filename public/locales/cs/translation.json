@@ -1,5 +1,15 @@
 {
-    "Welcome": {
+    "MainPage": {
         "text": "Vítej na této aplikaci"
+    },
+    "SearchBar": {
+        "text": "Hledej"
+    },
+    "SideBar":{
+        "inbox": "Inbox",
+        "today": "Dnes",
+        "upcoming": "Nadcházející",
+        "favorites": "Oblíbené",
+        "projects": "Projekty"
     }
 }

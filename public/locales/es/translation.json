@@ -1,5 +1,16 @@
 {
-    "Welcome": {
-        "text": "Bienvenido a esta aplicación"
+    "MainPage": {
+        "text": "Bienvenido a esta aplicación"      
+    },
+    "SearchBar": {
+        "text": "Buscar"
+    },
+    "SideBar":{
+        "inbox": "Inbox",
+        "today": "Hoy",
+        "upcoming": "Próximo",
+        "favorites": "Favorito",
+        "projects": "Proyectos"
     }
+   
 }

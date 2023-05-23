@@ -1,7 +1,11 @@
 import InboxIcon from '@mui/icons-material/Inbox';
 import './SideBar.css'
+import { useTranslation } from 'react-i18next';
+
 const SideBar = () => {
-    const arrOfSideBarItems = ['Inbox', 'Today', 'Upcoming', 'Favorites', 'Projects']
+    const { t } = useTranslation()
+
+    
     return (
         <>
         <div className='side-bar'>
@@ -11,13 +15,12 @@ const SideBar = () => {
                         color: '#089cf5',
                         marginRight: '5px',               
                     }} /> 
-                <span>Inbox</span>            
-            </div>
-            
-            <p>Today</p>
-            <p>Upcoming</p>
-            <p>Favorites</p>
-            <p>Projects</p>           
+                <span>{t('SideBar.inbox')}</span>            
+            </div>            
+            <p>{t('SideBar.today')}</p>
+            <p>{t('SideBar.upcoming')}</p>
+            <p>{t('SideBar.favorites')}</p>
+            <p>{t('SideBar.projects')}</p>           
         </div>    
         </>
     )
