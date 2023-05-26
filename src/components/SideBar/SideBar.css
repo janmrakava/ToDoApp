@@ -5,13 +5,14 @@
     flex-direction: column;
     align-items: center;
 }
-.inbox{
+.side-bar-item{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
     cursor: pointer;
     padding: 0 50px;
+    width: 100%;   
 }
-.inbox:hover{
+.side-bar-item:hover{
     background-color: #E5EAEA;
 }
